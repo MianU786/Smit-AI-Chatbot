@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        header {
+         text-align: right;
+         background-color: white;
+         text-decoration: underline ;
+         color: rgb(173, 0, 0);
+        }
+        main {
+            background-color:azure;
+            display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Sutdent Registraion Form</h3>
+    </header>
+    <main>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>        
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your first name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your first name"><br>
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" pattern="[0-9]{10}" required placeholder="only 10 digits are allowed"><br>
+                <label for="gender">Gender:</label>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br><br>
+              <label for="dob">Date Of Birth:</label>
+              <input type="date" id="dob" name="dob"><br>
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" placeholder="Enter your address" rows="10" cols="50"></textarea><br><br>
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" placeholder="Enter your city"><br>
+          <label for="area">Area PIN:</label>
+          <input type="text" id="area" name="area" placeholder="Enter your area PIN"><br>
+          <label for="state">State:</label>
+          <input type="text" id="state" name="state" placeholder="Enter your state"><br>
+          <label for="qualification">Qualification:</label>
+          <select id="qualification" name="qualification">
+            <option value="computer science">Computer Science</option>
+            <option value="information technology">Information Technology</option>
+            <option value="computer architecture">Computer Architecture</option>
+            <option value="tele communication">Tele Communication</option>
+          </select><br>
+          <label for="specialization">Specialization:</label>
+          <input type="checkbox" id="specialization" name="specialization 1" value="Computer Science">
+          <label for="specialization 1">Computer Science</label><br>
+          <input type="checkbox" id="specialization" name="specialization 2" value="Information Technology">
+          <label for="specialization 2">Information Technology</label><br>
+          <input type="checkbox" id="specialization" name="specialization 3" value="Computer Architecture">
+          <label for="specialization 3">Computer Architecture</label><br>
+          <input type="checkbox" id="specialization" name="specialization 3" value="tele communication">
+          <label for="specialization 3">tele communication</label><br> 
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+          <input type="submit" value="Register">
+          
+        </form>
+    </main>
+</body>
+</html>
