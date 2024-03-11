@@ -1,0 +1,288 @@
+                      /* Whole Body*/
+body{
+    background-color: rgb(6, 24, 51);
+    color:#8892b0;
+    margin-left: 5%;
+    margin-right: 3%;
+    font-family: Segoe UI;
+}
+hr{
+    width: 30%;
+    align-self: right;
+    color:#8892b0;
+
+}
+h1,h2,h3,h4,h5{
+    color: aliceblue;
+    font-family: Calibri;
+}
+a i:hover{
+    color:aquamarine ;
+    font-size: 25px;
+}
+span{
+    color: aquamarine;
+}
+                        /*header*/
+#SideLogo{
+    width: 20%;
+    display: inline-block;
+}
+#navg{
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 0%;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 2%;
+}
+.nav-but{
+    border: 1px aquamarine solid;
+    padding: 10px;
+    color:aquamarine ;
+}
+a{
+    text-decoration: none;
+    color: rgb(209, 209, 182);
+}
+                    /*Main Body*/
+.AboutName{
+    color: aquamarine;
+}
+.heading{
+    font-size:70px
+}
+.but1{
+    border: 1px aquamarine solid;
+    padding: 20px;
+    color:aquamarine;
+}
+.but{
+    margin: 7% 0%;
+}
+                              /*About page*/
+.txt1{
+    display: inline-block;
+    width: 60%;
+}
+.img{
+    display: inline-block;
+}
+.div1,.div2{
+    display: inline-block;
+    width: 25%;
+}
+#about-section{
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 60px;
+}
+p a:hover{
+    color: #64ffda;
+    text-decoration: underline;
+}
+                     /*Worked Page*/
+.txt2{
+    display: inline-block;
+    width: 50%;
+}
+.txt2 a:link{
+    color: #64ffda;
+    font-size: 25px;
+    line-height: 60px;
+}
+.txt2 a:hover{
+    color: #64ffda;
+    font-size: medium;
+    text-decoration: underline;
+    font-size: 25px;
+}
+                    /*Experience page*/
+                
+.txt3{
+    display: inline-block;
+    width:100% ;
+    padding:0px 20px;
+    background-color:  rgb(23 42 69);
+    margin-left: 10px;
+}
+.cont1{
+    position: relative;
+    width: 1100px;
+    height:400px;
+}
+.SubCont1{
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+.img3{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    max-width:500px;
+    z-index: 1;
+}
+.cont2{
+    position: relative;
+    width: 900px;
+    height:350px;    
+    text-align: right;
+}
+.SubCont2{
+    position: absolute;
+    width: 50%;
+    right: 10px;
+    z-index: 3;
+}
+.img4{
+    position: absolute;
+    top: 40px;
+    width: 500px;
+    z-index: 1;
+}
+.cont3{
+    position: relative;
+    width: 900px;
+    height:350px;    
+}
+.SubCont3{
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+}
+.img5{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 500px;
+    z-index: 1;
+}    
+.img6{
+    position: absolute;
+    top: 20px;
+    width: 480px;
+    z-index: 1;
+}
+                          /*Other Projects*/
+.proj{
+    width: 1000px;
+    position: relative;
+    height: 400px;
+    left: 50px;
+}
+.proj1{
+    position:absolute;
+    display: inline-block;
+    width: 30%;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(23 42 69);
+    height: 350px;
+}
+.proj2{
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    top:20px;
+    left: 370px;
+    background-color: rgb(23 42 69);
+    height: 350px;
+}
+.proj3{
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    top:20px;
+    right: 10px;
+    background-color: rgb(23 42 69);
+    height: 350px;
+}
+.proj-icon:link{
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    right: 30px;
+    top: 20px;
+}
+.DownText{
+    position: absolute;
+    font-size:10px;
+    bottom: 0%;
+    text-align: center;
+
+}
+                               /*End */
+#end{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+#email-link{
+    color: #8892b0;
+    font-size: 20px;
+    position: fixed;
+    left:87%;
+    top: 75%;
+    transform:rotate(90deg);
+    cursor: pointer;   
+}
+#email-link:hover{
+    color:#64ffda;
+}
+#hr-line2{
+    width: 5%;
+    color: #8892b0;
+    position: fixed;
+    margin: 5px;
+    transform: rotate(90deg);
+    top: 95%;
+    left: 92%;
+}
+#github-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 70%; /* Adjust the top position as needed */
+}
+#linkedin-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 75%; /* Adjust the top position as needed */
+}
+#twitter-icon{
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 80%; /* Adjust the top position as needed */
+}
+#hr-line1{
+    width: 10%;
+    color: #8892b0;
+    position: fixed;
+    margin: 5px;
+    transform: rotate(90deg);
+    top: 93%;
+    left: -30px;
+}
+#github-icon:hover,
+#linkedin-icon:hover,
+#twitter-icon:hover {
+    color: #64ffda; /* Change to your desired hover color */
+}
