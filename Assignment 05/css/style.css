@@ -34,7 +34,7 @@ span{
     text-align: right;
     margin-right: 0%;
 }
-li{
+#navg ul li{
     display: inline-block;
     list-style: none;
     margin: 2%;
@@ -68,28 +68,62 @@ a{
     display: inline-block;
     width: 60%;
 }
-.img{
-    display: inline-block;
-}
+
 .div1,.div2{
     display: inline-block;
     width: 25%;
 }
 #about-section{
-    position: relative;
+           position: relative;;
 }
 .img{
     position: absolute;
-    top: 60px;
+    right: 20px; 
+    display: inline-block;
+    top: 80px;
+}
+p a:link{
+    color: #64ffda;
+    text-decoration: none;
 }
 p a:hover{
     color: #64ffda;
     text-decoration: underline;
 }
+div .img a:link{
+    filter: grayscale(100%);
+}
+div .img a:hover{
+    filter: grayscale(0%);
+}
                      /*Worked Page*/
+#work-section{
+    position: relative;
+    height: 1000px;
+}
+
 .txt2{
     display: inline-block;
     width: 50%;
+    position: absolute;
+    left: 150px;
+}
+.ListAbout{
+    display: inline-block;;
+}
+.ListAbout hr{
+    transform: rotate(90deg);
+    color: #8892b0;
+}
+.ListAbout ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+}
+.ListAbout ul li a:hover{
+    color:aquamarine;
+    background-color: rgba(135, 207, 235, 0.315);
+    text-decoration: underline;
 }
 .txt2 a:link{
     color: #64ffda;
@@ -168,6 +202,18 @@ p a:hover{
     top: 20px;
     width: 480px;
     z-index: 1;
+}
+div .img3 a:link,
+div .img4 a:link,
+div .img5 a:link,
+div .img6 a:link{
+    filter: grayscale(100%);
+}
+div .img3 a:hover,
+div .img4 a:hover,
+div .img5 a:hover,
+div .img6 a:hover{
+    filter: grayscale(0%);
 }
                           /*Other Projects*/
 .proj{
