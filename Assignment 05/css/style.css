@@ -1,3 +1,5 @@
+                      
+  @media only screen and (min-width: 768px) {                    
                       /* Whole Body*/
 body{
     background-color: rgb(6, 24, 51);
@@ -110,10 +112,6 @@ div .img a:hover{
 }
 .ListAbout{
     display: inline-block;;
-}
-.ListAbout hr{
-    transform: rotate(90deg);
-    color: #8892b0;
 }
 .ListAbout ul li{
     text-decoration: none;
@@ -332,3 +330,4 @@ div .img6 a:hover{
 #twitter-icon:hover {
     color: #64ffda; /* Change to your desired hover color */
 }
+  }
